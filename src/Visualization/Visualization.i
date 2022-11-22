@@ -29,9 +29,6 @@
 %include "std_vector.i"
 %include "typemaps.i"
 
-%wrap_handle(AIS_InteractiveContext)
-%wrap_handle(V3d_View)
-%wrap_handle(V3d_Viewer)
 
 class Display3d {
  public:
